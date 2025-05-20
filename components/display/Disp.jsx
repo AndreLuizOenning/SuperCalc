@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { Text, View } from 'react-native';
 
 
-export default function Disp() {
+export default function Disp(props) {
   return (
     <View>
-        <Text>{number}</Text>
+        <Text>{props.number}</Text>
     </View>
   );
 }
